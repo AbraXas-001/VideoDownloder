@@ -1,5 +1,5 @@
 const express = require("express"); 
-const instagramGetUrl = require("instagram-url-direct"); 
+const instagramGetUrl = require("instagram-downloader").default; 
 const router = express.Router(); 
 router.get("/", async (req, res) => { const { url } = req.query; 
     try { const result = await instagramGetUrl(url); res.redirect(result.url_list[0]); } 
