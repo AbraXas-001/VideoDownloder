@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Download Videos from YouTube, TikTok, and Instagram</h1>
+
+    <form id="downloadForm">
+      <input type="url" id="url" placeholder="Enter video URL" required>
+      <select id="platform" required>
+        <option value="youtube">YouTube</option>
+        <option value="tiktok">TikTok</option>
+        <option value="instagram">Instagram</option>
+      </select>
+      <select id="quality">
+        <option value="1080p">1080p</option>
+        <option value="720p">720p</option>
+        <option value="480p">480p</option>
+        <option value="audio">Audio only</option>
+      </select>
+      <button type="submit">Download</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
