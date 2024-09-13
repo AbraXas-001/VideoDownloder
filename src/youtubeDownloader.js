@@ -1,5 +1,5 @@
 const express = require("express");
-const ytdl = require("ytdl-core");
+const ytdl = require("ytdl-secktor");
 
 const router = express.Router();
 
