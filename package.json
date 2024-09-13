@@ -10,7 +10,8 @@
     "express": "^4.17.1",
     "ytdl-secktor": "latest",
     "tiktok-scraper": "^1.4.16",
-    "instagram-url-direct": "^1.1.0",
+    "instagram-downloader": "^1.0.3"
+  }
     "dotenv": "^10.0.0",
     "path": "^0.12.7"
   },
